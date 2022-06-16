@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pesquisa filmes</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg flex-sm-row navbar-dark bg-dark">
+          <a class="navbar-brand" id="titulo_nav" href="index-home.html">PORTAL DE FILMES</a>
+            <ul id="item_nav" class="navbar-nav">
+              <li> <a class="nav-link"  href="index-populares.html">Filmes Populares</a></li>
+              <li> <a class="nav-link"  href="index-lancamentos.html">Lançamentos</a></li>
+              <li> <a class="nav-link"  href="index-pesquisa.html">Página de Busca</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+     </header>
+     <!-- <h1>Ferramenta de busca</h1>
+     <input type="text" id="txtPesquisa">
+     <button id="btnPesquisa">Pesquisar</button> -->
+
+     <main>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="textoPesquisa" autocomplete="off">
+        <button class="btn btn-outline-success" type="button" id="Expesquisa">Pesquisar</button>
+      </form>
+      <!-- <div class="">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id="videos">
+                  <h2>Teste filmes</h2>
+                  <div class="col-sm-12 col-md-12 col-lg-12 box-video" id="box-video">
+                    <img src="https://source.unsplash.com/random/120x80" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos tenetur nostrum eaque repellendus, in magni corrupti distinctio, explicabo fugiat quibusdam suscipit debitis error et ex natus voluptas totam minus sit iste sequi? Beatae fuga facilis ullam quibusdam delectus molestiae natus laboriosam, sunt est provident repellat ducimus amet saepe consequuntur nemo?</p>
+                  </div>
+                </div>
+            </div>
+      </div> -->
+      <div class="card col-sm-6 col-md-4 col-lg-2 box-video" id="card_filmes">
+        <img src="https://source.unsplash.com/random/120x80" class="card-img-top" alt="Filme">
+        <div class="card-body">
+          <h5 class="card-title">Filme</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+          <!-- <a href='#" class="btn btn-primary">Veja mais</a> -->
+        </div>
+      </div>
+      </main>
+       
+    <script src="script-pesquisa.js"></script>
+  </body>
+</html>
